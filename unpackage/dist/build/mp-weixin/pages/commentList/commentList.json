@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "点评",
+  "usingComponents": {
+    "load-err": "/components/loadErr",
+    "no-more": "/components/noMore"
+  }
+}

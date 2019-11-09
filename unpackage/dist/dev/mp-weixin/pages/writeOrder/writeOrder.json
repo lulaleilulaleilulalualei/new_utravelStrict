@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "usingComponents": {
+    "cost-detail": "/pages/writeOrder/costDetail"
+  }
+}

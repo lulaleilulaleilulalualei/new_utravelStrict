@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "全部线路",
+  "usingComponents": {
+    "no-more": "/components/noMore",
+    "skeleton": "/components/quick-skeleton",
+    "load-err": "/components/loadErr"
+  }
+}

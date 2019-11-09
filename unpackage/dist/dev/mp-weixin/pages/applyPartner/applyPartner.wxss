@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+.ellipse1.data-v-0ff025b8 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipse2.data-v-0ff025b8 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.toApplyBtn.data-v-0ff025b8 {
+  position: fixed;
+  left: 30rpx;
+  bottom: 70rpx;
+  width: 690rpx;
+  height: 88rpx;
+  background-color: #FFDA4C;
+  border-radius: 4px;
+  line-height: 88rpx;
+  text-align: center;
+  letter-spacing: 1rpx;
+  font-size: 32rpx;
+  color: #000000;
+}
+.contentBox.data-v-0ff025b8 {
+  padding: 40rpx 30rpx 0;
+}
+.contentBox .smallTitle.data-v-0ff025b8 {
+    font-size: 28rpx;
+    color: #979797;
+    margin-bottom: 10rpx;
+}
+.contentBox .topPersonInfo.data-v-0ff025b8 {
+    margin-bottom: 40rpx;
+}
+.contentBox .topPersonInfo.data-v-0ff025b8::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 10rpx;
+      background-color: #F1F1F5;
+}
+.contentBox .topPersonInfo .itemPersonInfo.data-v-0ff025b8 {
+      height: 110rpx;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 28rpx;
+      color: #000000;
+}
+.contentBox .topPersonInfo .itemPersonInfo .itemInfoTitle.data-v-0ff025b8 {
+        line-height: 110rpx;
+        margin-right: 40rpx;
+}
+.contentBox .topPersonInfo .itemPersonInfo .itemInfoInput.data-v-0ff025b8 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        overflow: hidden;
+        height: 100%;
+        line-height: 110rpx;
+}
+.contentBox .topPersonInfo .itemPersonInfo .itemInfoInput input.data-v-0ff025b8 {
+          width: 100%;
+          height: 100%;
+          font-size: 28rpx;
+          color: #000000;
+}
+.contentBox .topPersonInfo .itemPersonInfo.data-v-0ff025b8:not(:last-child) {
+        border-bottom: 1px solid #CACACA;
+}
+.contentBox .topPersonInfo .itemPersonInfo .pickerBox.data-v-0ff025b8 {
+        height: 100%;
+}
+.contentBox .topPersonInfo .itemPersonInfo .itemPicker.data-v-0ff025b8 {
+        height: 110rpx;
+        line-height: 40rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.contentBox .topPersonInfo .itemPersonInfo .itemPicker text.data-v-0ff025b8 {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          overflow: hidden;
+}
+.contentBox .topPersonInfo .itemPersonInfo .itemPicker.data-v-0ff025b8::after {
+          content: '';
+          display: block;
+          width: 12rpx;
+          height: 12rpx;
+          border: 4rpx solid #000;
+          border-left-color: transparent;
+          border-top-color: transparent;
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+          margin: 0 10rpx;
+}
+.contentBox .partnerCondition.data-v-0ff025b8 {
+    padding-top: 40rpx;
+}
+.contentBox .partnerCondition .conditionIntro.data-v-0ff025b8 {
+      font-size: 28rpx;
+      color: #000000;
+      margin-bottom: 30rpx;
+}
+.contentBox .partnerCondition .toInviteFriends.data-v-0ff025b8 {
+      background: #F5F7F9;
+      border-radius: 4px;
+      padding: 40rpx 30rpx;
+      margin-bottom: 60rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsLeft.data-v-0ff025b8 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 68rpx;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsLeft .toInviteImg.data-v-0ff025b8 {
+          width: 68rpx;
+          height: 68rpx;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-right: 30rpx;
+          background-color: #D8D8D8;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsLeft .toInviteNum.data-v-0ff025b8 {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsLeft .toInviteNum .toInviteNumTxt.data-v-0ff025b8 {
+            font-size: 28rpx;
+            color: #000000;
+            font-weight: 600;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsLeft .toInviteNum .toInviteNumAward.data-v-0ff025b8 {
+            font-size: 24rpx;
+            color: #FFB41B;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsRight.data-v-0ff025b8 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 28rpx;
+        color: #749DFC;
+}
+.contentBox .partnerCondition .toInviteFriends .toInviteFriendsRight.data-v-0ff025b8::after {
+          content: '';
+          display: block;
+          width: 12rpx;
+          height: 12rpx;
+          border: 4rpx solid #E0E0E0;
+          border-left-color: transparent;
+          border-top-color: transparent;
+          margin-left: 16rpx;
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+}
+.contentBox .partnerCondition .toReadProtocol.data-v-0ff025b8 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.contentBox .partnerCondition .toReadProtocol .selectAgreeBtn.data-v-0ff025b8 {
+        width: 30rpx;
+        height: 30rpx;
+        border: 1px solid #E5E5E5;
+        margin-right: 20rpx;
+}
+.contentBox .partnerCondition .toReadProtocol .to-active-agree.data-v-0ff025b8 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        font-size: 24rpx;
+        border-color: transparent;
+        background-color: #FFDA4C;
+        color: #000000;
+        font-weight: 800;
+}
+.contentBox .partnerCondition .toReadProtocol .toAgreeProTocal.data-v-0ff025b8 {
+        font-size: 28rpx;
+        color: #000000;
+        line-height: 40rpx;
+}
+.contentBox .partnerCondition .toReadProtocol .toAgreeProTocal text.data-v-0ff025b8 {
+          color: #0486FE;
+}
+

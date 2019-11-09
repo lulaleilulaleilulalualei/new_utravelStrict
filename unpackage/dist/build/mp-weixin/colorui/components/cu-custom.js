@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["colorui/components/cu-custom"],{1090:function(t,e,a){"use strict";a.r(e);var n=a("bb97"),o=a.n(n);for(var r in n)"default"!==r&&function(t){a.d(e,t,function(){return n[t]})}(r);e["default"]=o.a},"513b":function(t,e,a){"use strict";a.r(e);var n=a("d577"),o=a("1090");for(var r in o)"default"!==r&&function(t){a.d(e,t,function(){return o[t]})}(r);var u=a("2877"),c=Object(u["a"])(o["default"],n["a"],n["b"],!1,null,null,null);e["default"]=c.exports},bb97:function(t,e,a){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a={data:function(){return{StatusBar:this.StatusBar,CustomBar:this.CustomBar}},name:"cu-custom",computed:{style:function(){var t=this.StatusBar,e=this.CustomBar,a=this.bgImage,n="height:".concat(e,"px;padding-top:").concat(t,"px;background-color:").concat(this.bgColor,";opacity: ").concat(this.textOpacity,"; border-bottom: 1px solid ").concat(this.isShowBorder?"#F0F0F1;":"transparent",";");return this.bgImage&&(n="".concat(n,"background-image:url(").concat(a,");")),n}},props:{bgColor:{type:String,default:""},isBack:{type:[Boolean,String],default:!1},bgImage:{type:String,default:""},textOpacity:{type:Number,default:1},isShowBorder:{type:Boolean,default:!0}},methods:{BackPage:function(){if(getCurrentPages().length<2&&"undefined"!==typeof __wxConfig){var e="/"+__wxConfig.pages[0];return t.redirectTo({url:e})}t.navigateBack({delta:1})}}};e.default=a}).call(this,a("543d")["default"])},d577:function(t,e,a){"use strict";var n=function(){var t=this,e=t.$createElement;t._self._c},o=[];a.d(e,"a",function(){return n}),a.d(e,"b",function(){return o})}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'colorui/components/cu-custom-create-component',
+    {
+        'colorui/components/cu-custom-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("513b"))
+        })
+    },
+    [['colorui/components/cu-custom-create-component']]
+]);                

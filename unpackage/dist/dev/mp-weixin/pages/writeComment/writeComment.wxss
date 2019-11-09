@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+.ellipse1.data-v-cf990110 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipse2.data-v-cf990110, .pro-info .pro-info-box .pro-info-title.data-v-cf990110 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.writeComment.data-v-cf990110 {
+  width: 100%;
+  background-color: #F6F9FA;
+}
+.pro-info.data-v-cf990110 {
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pro-info .pro-info-img.data-v-cf990110 {
+    width: 260rpx;
+    height: 180rpx;
+    background-color: #D8D8D8;
+    margin-right: 20rpx;
+}
+.pro-info .pro-info-box.data-v-cf990110 {
+    height: 180rpx;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.pro-info .pro-info-box .pro-info-title.data-v-cf990110 {
+      font-size: 32rpx;
+      color: #0A0800;
+      font-weight: 700;
+}
+.pro-info .pro-info-box .pro-info-time.data-v-cf990110 {
+      font-size: 24rpx;
+      color: #909399;
+}
+.pro-grade.data-v-cf990110 {
+  padding: 30rpx;
+  background-color: #FFFFFF;
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pro-grade .pro-grade-title.data-v-cf990110 {
+    font-size: 28rpx;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 40rpx;
+}
+.pro-grade .pro-grade-list.data-v-cf990110 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.pro-grade .pro-grade-list .cuIcon-favorfill.data-v-cf990110 {
+      font-size: 40rpx;
+      color: #E6E6E6;
+}
+.pro-grade .pro-grade-list .cuIcon-favorfill.data-v-cf990110:not(:last-child) {
+        margin-right: 30rpx;
+}
+.pro-grade .pro-grade-list .seleted-star.data-v-cf990110 {
+      color: #FFDA4C;
+}
+.pro-text-inp.data-v-cf990110 {
+  width: 100%;
+  height: 240rpx;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  padding: 30rpx;
+}
+.pro-text-inp textarea.data-v-cf990110 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 28rpx;
+    color: #000000;
+}
+.to-upload-img.data-v-cf990110 {
+  padding: 30rpx;
+  background-color: #FFFFFF;
+}
+.to-upload-img .upload-img-list.data-v-cf990110 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.to-upload-img .upload-img-list .item-upload-img.data-v-cf990110 {
+      width: 165rpx;
+      height: 165rpx;
+      background-color: #D8D8D8;
+      position: relative;
+      margin-bottom: 10rpx;
+}
+.to-upload-img .upload-img-list .item-upload-img.data-v-cf990110:not(:nth-child(4n)) {
+        margin-right: 10rpx;
+}
+.to-upload-img .upload-img-list .item-upload-img .cuIcon-roundclosefill.data-v-cf990110 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        font-size: 40rpx;
+}
+.to-upload-img .to-upload-btn.data-v-cf990110 {
+    width: 165rpx;
+    height: 165rpx;
+    border: 1px dashed #E5E5E5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 40px;
+    color: #909399;
+}
+.show-commom-tags.data-v-cf990110 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30rpx;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.show-commom-tags .item-com-tag.data-v-cf990110 {
+    padding: 6rpx 20rpx;
+    background: #FFFFFF;
+    border-radius: 8rpx;
+    font-size: 24rpx;
+    color: #909399;
+    margin: 0 20rpx 20rpx 0;
+}
+.show-commom-tags .item-active-com-tag.data-v-cf990110 {
+    background-color: #FFDA4C;
+    color: #000000;
+}
+.to-complete-btn.data-v-cf990110 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #000000;
+  background-color: #FFDA4C;
+}
+

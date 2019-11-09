@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的钱包",
+  "usingComponents": {
+    "get-money-box": "/pages/mineWallet/getMoneyBox"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="noListData data-v-d01718d0"><view class="noDataImg data-v-d01718d0"><image src="/static/noData.png" alt class="_img data-v-d01718d0"></image></view><view class="noDataText data-v-d01718d0">{{noText}}</view></view>

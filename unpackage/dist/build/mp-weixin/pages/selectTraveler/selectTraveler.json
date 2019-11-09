@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择出行人",
+  "usingComponents": {
+    "load-err": "/components/loadErr",
+    "no-list-data": "/components/noListData"
+  }
+}

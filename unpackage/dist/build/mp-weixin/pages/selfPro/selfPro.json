@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "茶咖",
+  "usingComponents": {
+    "select-self-pro": "/pages/selfPro/selectSelfPro"
+  }
+}

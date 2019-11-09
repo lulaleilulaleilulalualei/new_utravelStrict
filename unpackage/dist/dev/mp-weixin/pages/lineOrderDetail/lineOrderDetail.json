@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "cost-detail": "/pages/writeOrder/costDetail",
+    "load-err": "/components/loadErr"
+  }
+}

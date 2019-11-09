@@ -1,0 +1,279 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/outdoorsPro/outdoorsPro",
+			"style": {
+				"navigationBarTitleText": "户外"
+			}
+		},
+		{
+			"path": "pages/selfPro/selfPro",
+			"style": {
+				"navigationBarTitleText": "茶咖"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "茶咖"
+			}
+		},
+		{
+			"path": "pages/lineDetail/lineDetail",
+			"style": {
+				"navigationBarTitleText": "线路详情"
+			}
+		},
+		{
+			"path": "pages/selectBatch/selectBatch",
+			"style": {
+				"navigationBarTitleText": "选择班期/人数"
+			}
+		},
+		{
+			"path": "pages/selfPro/selectStore",
+			"style": {
+				"navigationBarTitleText": "选择门店"
+			}
+		},
+		{
+			"path": "pages/outdoorsPro/outProDetail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		},
+		{
+			"path": "pages/selfPro/sureOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/selfPro/orderRemarks",
+			"style": {
+				"navigationBarTitleText": "订单备注"
+			}
+		},
+		{
+			"path": "pages/selfPro/selfOrderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/lineList/lineList",
+			"style": {
+				"navigationBarTitleText": "全部线路"
+			}
+		},
+		{
+			"path": "pages/writeOrder/writeOrder",
+			"style": {
+				"navigationBarTitleText": "填写订单"
+			}
+		},
+		{
+			"path": "pages/utravelServiceProtocol/utravelServiceProtocol",
+			"style": {
+				"navigationBarTitleText": "优旅家平台服务协议"
+			}
+		},
+		{
+			"path": "pages/succurityNotice/succurityNotice",
+			"style": {
+				"navigationBarTitleText": "旅游安全须知"
+			}
+		},
+		{
+			"path": "pages/selectTraveler/selectTraveler",
+			"style": {
+				"navigationBarTitleText": "选择出行人"
+			}
+		},
+		{
+			"path": "pages/optTraveler/optTraveler",
+			"style": {
+				"navigationBarTitleText": "出行人"
+			}
+		},
+		{
+			"path": "pages/discountsCoupon/discountsCoupon",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		},
+		{
+			"path": "pages/applyInvoice/applyInvoice",
+			"style": {
+				"navigationBarTitleText": "发票申请"
+			}
+		},
+		{
+			"path": "pages/addressList/addressList",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/optAddress/optAddress",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/lineOrderDetail/lineOrderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/collectList/collectList",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/myOrders/myOrders",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/mineWallet/mineWallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/mineWallet/getMoneyRecord",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},
+		{
+			"path": "pages/personalInfo/personalInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/personalInfo/editPersonnalInfo",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/personalInfo/editTel",
+			"style": {
+				"navigationBarTitleText": "修改号码"
+			}
+		},
+		{
+			"path": "pages/applyPartner/applyPartner",
+			"style": {
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/applyPartner/partnerProtocal",
+			"style": {
+				"navigationBarTitleText": "合伙人协议"
+			}
+		},
+		{
+			"path": "pages/integralList/integralList",
+			"style": {
+				"navigationBarTitleText": "排名"
+			}
+		},
+		{
+			"path": "pages/outdoorsPro/outProList",
+			"style": {
+				"navigationBarTitleText": "全部产品"
+			}
+		},
+		{
+			"path": "pages/outdoorsPro/sureProOrder",
+			"style": {
+				"navigationBarTitleText": "确定订单"
+			}
+		},
+		{
+			"path": "pages/outdoorsPro/orderRemarks",
+			"style": {
+				"navigationBarTitleText": "订单备注"
+			}
+		},
+		{
+			"path": "pages/commentList/commentList",
+			"style": {
+				"navigationBarTitleText": "点评"
+			}
+		},
+		{
+			"path": "pages/writeComment/writeComment",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/outProOrderDetail/outProOrderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/outProOrderDetail/orderFlowInfo",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		}
+	],
+	"condition": { //模式配置，仅开发期间生效
+	    "current": 0, //当前激活的模式（list 的索引项）
+	    "list": [{
+	        "name": "test", //模式名称
+	        "path": "pages/lineDetail/lineDetail", //启动页面，必选
+			"query":"id=1000014"
+	    }]
+	},
+	"tabBar":{
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/home_icon.png",
+			"selectedIconPath": "static/home_selected_icon.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/mine_icon.png",
+			"selectedIconPath": "static/mine_selected_icon.png",
+			"text": "我的"
+		}]
+	},
+	"subPackages": [{
+		"root": "pageMember",
+		"pages": [{
+			"path": "utravelMember/utravelMember",
+			"style": {
+				"navigationBarTitleText": "超级会员"
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "优旅家严选",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}

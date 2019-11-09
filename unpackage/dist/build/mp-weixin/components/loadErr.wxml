@@ -1,0 +1,1 @@
+<view class="loadErr data-v-dce3b504"><view class="loadErrImg data-v-dce3b504"><image src="/static/noInternet.png" alt class="_img data-v-dce3b504"></image></view><view class="loadErrText data-v-dce3b504">好像出错了~</view><view data-event-opts="{{[['tap',[['toRelaod',['$event']]]]]}}" class="reloadBtn data-v-dce3b504" bindtap="__e">重新加载</view></view>

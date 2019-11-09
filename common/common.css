@@ -1,0 +1,54 @@
+/* 弹框样式 */
+page {
+	background-color: #fff;
+	width: 100%;
+	font-family: 'DIN' 'PingFang' '微软雅黑';
+	height: 100%;
+	-webkit-user-select:none;
+	user-select:none;
+	width: 100%;
+	height: 100%;
+}
+::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+image {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.no-data-box {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+.no-data-box .noDataImg {
+	width: 224upx;
+	height: 158upx;
+	margin-bottom: 40upx;
+}
+.no-data-box .noDataText {
+	font-size: 28upx;
+	color: #909399;
+	text-align: center;
+}
+.toAuthBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	opacity: 0;
+}
+
+.utravelMember .cuIcon-back {
+	color: #FFFFFF;
+}
+		

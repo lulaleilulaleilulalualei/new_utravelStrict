@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+.ellipse1.data-v-114f1b02 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipse2.data-v-114f1b02 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.loadErr.data-v-114f1b02 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+.loadErr .loadErrImg.data-v-114f1b02 {
+    width: 258rpx;
+    height: 206rpx;
+    margin-bottom: 40rpx;
+}
+.loadErr .loadErrText.data-v-114f1b02 {
+    font-size: 28rpx;
+    color: #999;
+    text-align: center;
+}
+.loadErr .reloadBtn.data-v-114f1b02 {
+    width: 200rpx;
+    height: 70rpx;
+    text-align: center;
+    line-height: 70rpx;
+    border-radius: 12rpx;
+    font-size: 32rpx;
+    color: #333;
+    background-color: #FFDA4C;
+    position: absolute;
+    bottom: 200rpx;
+    left: 50%;
+    margin-left: -100rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+.ellipse1.data-v-357465b6 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipse2.data-v-357465b6 {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.batch-page-title.data-v-357465b6 {
+  font-size: 28rpx;
+  color: #0A0800;
+  font-weight: 600;
+  padding: 30rpx 30rpx 40rpx;
+}
+.batch-page-title .cut-batch-num.data-v-357465b6 {
+    font-size: 24rpx;
+    color: #FF0014;
+    display: inline-block;
+    margin-left: 20rpx;
+}
+.batch-month-list.data-v-357465b6 {
+  height: 100rpx;
+  width: 100%;
+}
+.batch-month-list .batch-month-list-scroll.data-v-357465b6 {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+.batch-month-list .batch-month-list-scroll .item-month-batch.data-v-357465b6 {
+      height: 100%;
+      width: auto;
+      display: inline-block;
+      padding: 0 20rpx;
+      color: #0A0800;
+      border-bottom: 4rpx solid transparent;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      margin-right: 30rpx;
+}
+.batch-month-list .batch-month-list-scroll .item-month-batch view.data-v-357465b6 {
+        font-size: 32rpx;
+        text-align: center;
+}
+.batch-month-list .batch-month-list-scroll .item-month-batch text.data-v-357465b6 {
+        font-size: 24rpx;
+}
+.batch-month-list .batch-month-list-scroll .item-month-batch.data-v-357465b6:first-child {
+        margin-left: 30rpx;
+}
+.batch-month-list .batch-month-list-scroll .select-batch-month.data-v-357465b6 {
+      font-weight: 700;
+      border-color: #FFDA4C;
+}
+.dateSelectView.data-v-357465b6 {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30rpx;
+}
+.dateSelectView .weekBgView.data-v-357465b6 {
+    width: auto;
+    height: 86rpx;
+    padding: 0 40rpx;
+    background-color: #F5F7FA;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 600;
+}
+.dateSelectView .weekBgView .weekView.data-v-357465b6 {
+      font-size: 24rpx;
+      color: #0A0800;
+}
+.dateSelectView .weekBgView .weekView.data-v-357465b6:first-child {
+        color: #FFDA4C;
+}
+.dateSelectView .weekBgView .weekView.data-v-357465b6:last-child {
+        color: #FFDA4C;
+}
+.dateSelectView .dateBgView.data-v-357465b6 {
+    width: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    border-bottom: 1rpx solid  #F9F9F9;
+}
+.dateSelectView .dateBgView .dateEmptyView.data-v-357465b6 {
+      width: 107rpx;
+      height: 114rpx;
+      border-bottom: 1px solid #E7E7E7;
+}
+.dateSelectView .dateBgView .datesView.data-v-357465b6 {
+      width: 107rpx;
+      height: 114rpx;
+      border-bottom: 1px solid #E7E7E7;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #0A0800;
+      position: relative;
+}
+.dateSelectView .dateBgView .datesView .currentDay.data-v-357465b6 {
+        font-size: 28rpx;
+        font-weight: 600;
+}
+.dateSelectView .dateBgView .datesView .currentPrice.data-v-357465b6 {
+        font-size: 24rpx;
+}
+.dateSelectView .dateBgView .activeSelectDay.data-v-357465b6 {
+      background: #FFF4C7;
+      border: 1px solid #FCD202;
+      border-radius: 0 20rpx 20rpx 20rpx;
+}
+.dateSelectView .dateBgView .activeSelectDay .currentPrice.data-v-357465b6 {
+        color: #FF0014;
+}
+.dateSelectView .dateBgView .noCanToSelect.data-v-357465b6 {
+      color: #eee;
+}
+.select-batch-num.data-v-357465b6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+.select-batch-num .select-batch-price.data-v-357465b6 {
+    font-size: 28rpx;
+    color: #0A0800;
+}
+.select-batch-num .select-travler-num.data-v-357465b6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.select-batch-num .select-travler-num .select-num-mul.data-v-357465b6 {
+      width: 76rpx;
+      height: 56rpx;
+      border: 1px solid #D8DCE6;
+      border-radius: 8rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      font-size: 28rpx;
+      color: #0A0800;
+}
+.select-batch-num .select-travler-num .select-num-txt.data-v-357465b6 {
+      width: 100rpx;
+      height: 56rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      font-size: 28rpx;
+      color: #0A0800;
+}
+.select-batch-num .select-travler-num .select-num-add.data-v-357465b6 {
+      width: 76rpx;
+      height: 56rpx;
+      background: #F5F7FA;
+      border: 1px solid #D8DCE6;
+      border-radius: 8rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      font-size: 28rpx;
+      color: #0A0800;
+}
+.select-batch-num .select-child-num .select-num-mul.data-v-357465b6 {
+    border-color: #FFF4C7;
+}
+.select-batch-num .select-child-num .select-num-add.data-v-357465b6 {
+    border-color: transparent;
+    background: #FFF4C7;
+}
+.batch-bottom-btn.data-v-357465b6 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6rpx 30rpx;
+  border-top: 1px solid #F4F4F4;
+  background-color: #FFFFFF;
+}
+.batch-bottom-btn .show-all-price.data-v-357465b6 {
+    font-size: 40rpx;
+    color: #FF0014;
+    font-weight: 700;
+}
+.batch-bottom-btn .to-write-order.data-v-357465b6 {
+    width: 192rpx;
+    height: 84rpx;
+    border-radius: 42rpx;
+    background-color: #FFDA4C;
+    text-align: center;
+    line-height: 84rpx;
+    font-size: 28rpx;
+    color: #000000;
+}
+
